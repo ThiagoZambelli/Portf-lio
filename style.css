@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Press+Start+2P&display=swap');
+
+@import url(style/tecnologias.css);
+@import url(style/footer.css);
+@import url(style/main.css);
+
+:root{
+
+    --fote-de-titulo:'Press Start 2P', cursive;
+    --fote-de-texto: 'Gruppo', cursive;
+
+    --cor-titulos: #19947B;
+    --preto: #000000;
+
+    --bg-main: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    --rosa-bg:#FF057C;
+    --roxo-bg:#8D0B93;
+}
+
+main{
+    background: var(--bg-main);
+    font-family: var(--fote-de-texto);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.flex__container{
+    display: flex;
+}
+.titulo{
+    font-family: var(--fote-de-titulo);
+}
+strong{
+    font-weight: bold;
+}

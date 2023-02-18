@@ -1,0 +1,18 @@
+.sobreMim-descricao{
+    width: 60%;
+    margin: 0 auto;
+    text-align: justify;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-bottom: 4rem;
+}
+.sobreMim-titulo{
+    font-size: 2rem;
+    text-decoration: underline;
+    color: var(--cor-titulos);
+    text-align: center;
+}
+.sobreMim-texto{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

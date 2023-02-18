@@ -1,0 +1,70 @@
+.hide{
+    display: none;
+}
+
+/* Icones das tecnologias conhecidas */
+.tecnologias-titulo{
+    text-align: center;
+    font-size: 2rem;
+}
+.tecnologias-conhecidas, .tecnologias-descricao{
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.tecnologias-conhecidas{
+    padding: 2rem 0;
+}
+.tecnologias-icones{
+    column-gap: 1rem;
+    width: 40%;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.tecnologia-img{
+    width: 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+.tecnologia-img:hover{
+    transform: scale(1.2);
+}
+
+/* Descrição das Tecnologias Conhecidas */
+.tecnologias-descricao{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 60%;
+    margin: auto;
+    border: 2px solid var(--cor-titulos);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 1px 0 9px var(--preto);
+    transition: 1s;
+}
+.tecnologias-descricao:hover{
+    scale: 1.02;
+}
+.tecnologia-titulo{
+    font-size: 2rem;
+    text-decoration: underline;
+    color: var(--cor-titulos);
+}
+.tecnologia-texto{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.exemplos{
+    font-size: 1.5rem;
+}
+.exemplo{
+    margin-top: 1rem;
+}
+.exemplo a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--preto);
+    text-decoration: underline;
+}
