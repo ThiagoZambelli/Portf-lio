@@ -9,12 +9,14 @@
     --fote-de-titulo:'Press Start 2P', cursive;
     --fote-de-texto: 'Gruppo', cursive;
 
-    --cor-titulos: #19947B;
+    --cor-titulos: #32295E;
     --preto: #000000;
-
-    --bg-main: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
-    --rosa-bg:#FF057C;
+    --bg-main: linear-gradient(-225deg, #B958A5 0%, #9145B6 50%, #FF5677 100%);
+    /* --bg-main: linear-gradient(-225deg, #80033F 0%, #8D0B93 50%, #321575 100%); */
+    --rosa-bg:#9145B6;
     --roxo-bg:#8D0B93;
+    
+    --cor-footer:#4C3F91;
 }
 
 main{
