@@ -9,12 +9,16 @@
     --fote-de-titulo:'Press Start 2P', cursive;
     --fote-de-texto: 'Gruppo', cursive;
 
-    --cor-titulos: #32295E;
+    --cor-titulos: rgba(31,29,54,1);
     --preto: #000000;
-    --bg-main: linear-gradient(-225deg, #B958A5 0%, #9145B6 50%, #FF5677 100%);
+    
+    --bg-footer: linear-gradient(126deg, rgba(31,29,54,1) 17%, rgba(75,70,130,1) 62%, rgba(67,66,79,1) 90%);
+    /* --bg-main: linear-gradient(-225deg, #B958A5 0%, #9145B6 50%, #FF5677 100%); */
     /* --bg-main: linear-gradient(-225deg, #80033F 0%, #8D0B93 50%, #321575 100%); */
-    --rosa-bg:#9145B6;
-    --roxo-bg:#8D0B93;
+    --bg-main: linear-gradient(-225deg, #3F3351 0%, #864879 50%, #E9A6A6 100%);
+    --primeira-cor-footer: rgba(31,29,54,1);
+    --segunda-cor-footer:rgba(75,70,130,1);
+    --terceira-cor-footer:rgba(67,66,79,1);
     
     --cor-footer:#4C3F91;
 }
@@ -33,6 +37,7 @@ main{
 }
 .titulo{
     font-family: var(--fote-de-titulo);
+    color: var(--cor-titulos);   
 }
 strong{
     font-weight: bold;

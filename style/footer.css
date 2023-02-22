@@ -1,5 +1,5 @@
 footer{
-    background: var(--cor-footer);
+    background: var(--bg-footer);
     padding: 4rem;
     column-gap: 2rem;
     align-items: center;
@@ -12,14 +12,14 @@ h1{
 }
 .footer-foto{
     width: 30%;
-    border: 2px solid var(--rosa-bg);
+    border: 2px solid var(--primeira-cor-footer);
     border-radius: 50%;
-    box-shadow: 1px 0 9px var(--rosa-bg);
+    box-shadow: 1px 0 9px var(--terceira-cor-footer);
     transition: 1s;   
 }
 .footer-foto:hover{
     transform: scale(1.1);
-    border-color: var(--roxo-bg);
+    border-color: var(--segunda-cor-footer);
 }
 .footer-descricao{
     flex-direction: column;

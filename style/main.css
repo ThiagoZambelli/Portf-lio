@@ -16,3 +16,32 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+/* Certificados e diplomas */
+.diplomas, .experiências{
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto 4rem auto;
+    row-gap: 2rem;
+}
+.diplomas-titulo, .experiências-titulo{
+    font-size: 1.8rem;
+}
+.formacao-titulo, .certificados-titulo, .experiência-titulo{
+    font-size: 1.8rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+.formacao, .certificados{
+    margin-left: 4rem;
+}
+.formacao-descricao, .certificados-descricao, .experiência-descricao{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.experiência-cartas-titulo{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
