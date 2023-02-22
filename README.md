@@ -14,12 +14,14 @@
 * JavaScript
 * HTML
 * CSS
+* Git/GitHub
 
 ## Soft-skills
 * Comunicação
-* adaptabilidade
-* foco
-* esforço
+* Adaptabilidade
+* Foco
+* Esforço
+* Criatividade
 
 
 ## Diplomas
