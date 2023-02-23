@@ -43,3 +43,17 @@ h1{
     text-decoration: none;
     color: var(--preto);  
 }
+
+@media screen and (max-width:1300px) {
+    h1{
+        text-align: center;
+        width: 50%;
+    }
+    .footer-foto{
+        width: 90%;
+        border: 2px solid var(--primeira-cor-footer);
+        border-radius: 50%;
+        box-shadow: 1px 0 9px var(--terceira-cor-footer);
+        transition: 1s;   
+    }
+}

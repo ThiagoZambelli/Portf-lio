@@ -5,6 +5,7 @@
 @import url(style/main.css);
 
 :root{
+    font-size: 16px;
 
     --fote-de-titulo:'Press Start 2P', cursive;
     --fote-de-texto: 'Gruppo', cursive;
@@ -13,6 +14,7 @@
     --preto: #000000;
     
     --bg-footer: linear-gradient(126deg, rgba(31,29,54,1) 17%, rgba(75,70,130,1) 62%, rgba(67,66,79,1) 90%);
+    --bg-footer-invertida: linear-gradient(126deg, rgba(67,66,79,1) 17%, rgba(75,70,130,1) 62%, rgba(31,29,54,1) 90%);
     /* --bg-main: linear-gradient(-225deg, #B958A5 0%, #9145B6 50%, #FF5677 100%); */
     /* --bg-main: linear-gradient(-225deg, #80033F 0%, #8D0B93 50%, #321575 100%); */
     --bg-main: linear-gradient(-225deg, #3F3351 0%, #864879 50%, #E9A6A6 100%);
@@ -22,6 +24,8 @@
     
     --cor-footer:#4C3F91;
 }
+
+
 
 main{
     background: var(--bg-main);
@@ -37,8 +41,25 @@ main{
 }
 .titulo{
     font-family: var(--fote-de-titulo);
-    color: var(--cor-titulos);   
+    /* color: var(--cor-titulos); */
+    background-image: var(--bg-footer);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;    
 }
+
 strong{
     font-weight: bold;
+}
+
+@media screen and (max-width:1300px) {
+    :root{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    :root{
+        font-size: 8px;
+    }
 }
