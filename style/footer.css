@@ -7,11 +7,11 @@ footer{
     font-weight: bold;
 }
 h1{
-    text-align: end;
+    text-align: center;
     width: 40%;
 }
 .footer-foto{
-    width: 30%;
+    width: 40%;
     border: 2px solid var(--primeira-cor-footer);
     border-radius: 50%;
     box-shadow: 1px 0 9px var(--terceira-cor-footer);
@@ -47,13 +47,25 @@ h1{
 @media screen and (max-width:1300px) {
     h1{
         text-align: center;
-        width: 50%;
+        width: 30%;
+        padding: 4rem;
     }
     .footer-foto{
-        width: 90%;
+        width: 60%;
         border: 2px solid var(--primeira-cor-footer);
         border-radius: 50%;
         box-shadow: 1px 0 9px var(--terceira-cor-footer);
         transition: 1s;   
     }
+}
+@media screen and (max-width: 720px) {
+   footer{
+    flex-direction: column;
+   }
+
+   h1{
+    
+    width: 50%;
+   }
+   
 }

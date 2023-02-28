@@ -19,6 +19,7 @@
     width: 40%;
     margin: auto;
     flex-wrap: wrap;
+    row-gap: 2rem;
     align-items: center;
     justify-content: center;
 }
@@ -33,6 +34,7 @@
 
 /* Descrição das Tecnologias Conhecidas */
 .tecnologias-descricao{
+    background-color: var(--bg-tecnologias);
     justify-content: center;
     align-items: center;
     text-align: justify;
@@ -45,7 +47,7 @@
     transition: 1s;
 }
 .tecnologias-descricao:hover{
-    scale: 1.02;
+    scale: 1.01;
 }
 .tecnologia-titulo{
     font-size: 2rem;
@@ -60,11 +62,30 @@
     font-size: 1.5rem;
 }
 .exemplo{
-    margin-top: 1rem;
+    margin: 4rem 0;    
 }
 .exemplo a{
     text-decoration: none;
     font-weight: bold;
-    color: var(--preto);
-    text-decoration: underline;
+    color: var(--cor-texto);    
+    border: 2px solid var(--cor-texto);
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--bg-main);
+    transition: .5s;
+}
+.exemplo a:hover{
+    color: var(--cor-titulos);
+    transform: scale(1.01);
+}
+
+@media screen and (max-width: 720px) {
+    .tecnologias-descricao{
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .exemplos{
+        font-size: 1rem;
+    }
 }
