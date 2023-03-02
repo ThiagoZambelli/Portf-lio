@@ -1,4 +1,4 @@
-footer{
+header{
     background: var(--bg-footer);
     padding: 4rem;
     column-gap: 2rem;
@@ -10,27 +10,27 @@ h1{
     text-align: center;
     width: 40%;
 }
-.footer-foto{
+.header-foto{
     width: 40%;
     border: 2px solid var(--primeira-cor-footer);
     border-radius: 50%;
     box-shadow: 1px 0 9px var(--terceira-cor-footer);
     transition: 1s;   
 }
-.footer-foto:hover{
+.header-foto:hover{
     transform: scale(1.1);
     border-color: var(--segunda-cor-footer);
 }
-.footer-descricao{
+.header-descricao{
     flex-direction: column;
     align-items: center;
     row-gap: .5rem;
 }
-.footer-nome{
+.header-nome{
     font-size: 2.4rem;
     text-decoration: underline;
 }
-.footer-contatos{
+.header-contatos{
     align-items: center;
     column-gap: 1.2rem;
     color: var(--preto);
@@ -39,7 +39,7 @@ h1{
 .contato-img{
     width: 24px;
 }
-.footer-contatos a{
+.header-contatos a{
     text-decoration: none;
     color: var(--preto);  
 }
@@ -50,7 +50,7 @@ h1{
         width: 30%;
         padding: 4rem;
     }
-    .footer-foto{
+    .header-foto{
         width: 60%;
         border: 2px solid var(--primeira-cor-footer);
         border-radius: 50%;
@@ -59,7 +59,7 @@ h1{
     }
 }
 @media screen and (max-width: 720px) {
-   footer{
+    header{
     flex-direction: column;
    }
 
